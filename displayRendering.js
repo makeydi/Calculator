@@ -1,9 +1,8 @@
-import field from "./index.js";
+import field from './index.js';
 
 class DisplayRendering {
     constructor(){
-        this.value = 0;
-        this.operator = '';
+        this.valueView = 0;
         this.init();
     }
 
@@ -20,7 +19,17 @@ class DisplayRendering {
     }
 
     showValue(data) {
-        this.element.innerHTML = data;
+        if (data.length > 11) {
+            this.valueView.classList.add('longNumber');
+            this.valueView.innerHTML = data;}
+            else {
+                this.valueView.classList.remove('longNumber');
+                this.valueView.innerHTML = data;
+            }; 
+    }
+
+    showOperator(data) {
+        this.operatorView.innerHTML = data;
     }
 }
 

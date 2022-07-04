@@ -4,8 +4,8 @@ class FieldRendering {
   }
 
   init() {
-    this.element = document.createElement("div");
-    this.element.className = "containerMain";
+    this.element = document.createElement('div');
+    this.element.className = 'containerMain';
     document.body.append(this.element);
   }
 }
