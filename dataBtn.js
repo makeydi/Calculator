@@ -1,6 +1,6 @@
 const dataBtn = [
-  { label: 'AC', className: 'clearDisplay', value: ''},
-  { label: 'DEL', className: 'deleteValue', value: ''},
+  { label: 'AC', className: 'clear-display', value: ''},
+  { label: 'DEL', className: 'delete-value', value: ''},
   { label: '/', className: 'operator', value: '/'},
   { label: '1', className: 'nbr', value: 1 },
   { label: '2', className: 'nbr', value: 2 },

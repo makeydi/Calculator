@@ -1,13 +1,13 @@
-class FieldRendering {
+class Field {
   constructor() {
     this.init();
   }
 
   init() {
     this.element = document.createElement('div');
-    this.element.className = 'containerMain';
+    this.element.className = 'container-main';
     document.body.append(this.element);
   }
 }
 
-export default FieldRendering;
+export default Field;

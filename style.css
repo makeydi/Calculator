@@ -5,7 +5,7 @@ body {
     padding-top: 70px;
 }
 
-.containerMain {
+.container-main {
     margin: 0 auto;
     display: grid;
     width: 400px;
@@ -26,7 +26,7 @@ body {
     grid-row: 1/3;
 }
 
-.valueView {
+.value-view {
     width: 98%;
     position: absolute;
     bottom: 0;
@@ -39,11 +39,11 @@ body {
     box-sizing: border-box;
 }
 
-.longNumber {
+.long-number {
    font-size: 40px; 
 }
 
-.operatorView {
+.operator-view {
     width: 60px;
     height: 50px;
     position: absolute;
@@ -71,7 +71,7 @@ button:active {
     font-size: 35px;
 }
 
-.clearDisplay {
+.clear-display {
     grid-column: 1/3;
 }
 
